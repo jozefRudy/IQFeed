@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentinel.IQFeed", "..\IQFeed\Sentinel.IQFeed.csproj", "{007019D8-CEC4-4CCD-B9C6-A3BE7CE705B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQFeed.ConsoleDemo", "..\IQFeed.ConsoleDemo\IQFeed.ConsoleDemo.csproj", "{674A1B34-20A6-47CF-BAAD-EB2A2ABA72EE}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs15
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\IQFeed.ConsoleDemo\\IQFeed.ConsoleDemo.csproj
+		SccProjectName1 = ../IQFeed.ConsoleDemo
+		SccLocalPath1 = ..\\IQFeed.ConsoleDemo
+		SccProjectUniqueName2 = ..\\IQFeed\\Sentinel.IQFeed.csproj
+		SccProjectName2 = ../IQFeed
+		SccLocalPath2 = ..\\IQFeed
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007019D8-CEC4-4CCD-B9C6-A3BE7CE705B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007019D8-CEC4-4CCD-B9C6-A3BE7CE705B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007019D8-CEC4-4CCD-B9C6-A3BE7CE705B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007019D8-CEC4-4CCD-B9C6-A3BE7CE705B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674A1B34-20A6-47CF-BAAD-EB2A2ABA72EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674A1B34-20A6-47CF-BAAD-EB2A2ABA72EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674A1B34-20A6-47CF-BAAD-EB2A2ABA72EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674A1B34-20A6-47CF-BAAD-EB2A2ABA72EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

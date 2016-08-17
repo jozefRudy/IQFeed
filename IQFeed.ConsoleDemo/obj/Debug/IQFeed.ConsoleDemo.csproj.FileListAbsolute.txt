@@ -1,0 +1,8 @@
+C:\projects\iqFeed\IQFeed.ConsoleDemo\bin\Debug\IQFeed.ConsoleDemo.exe.config
+C:\projects\iqFeed\IQFeed.ConsoleDemo\bin\Debug\IQFeed.ConsoleDemo.exe
+C:\projects\iqFeed\IQFeed.ConsoleDemo\bin\Debug\IQFeed.ConsoleDemo.pdb
+C:\projects\iqFeed\IQFeed.ConsoleDemo\bin\Debug\IQFeed.dll
+C:\projects\iqFeed\IQFeed.ConsoleDemo\bin\Debug\IQFeed.pdb
+C:\projects\iqFeed\IQFeed.ConsoleDemo\obj\Debug\IQFeed.ConsoleDemo.csprojResolveAssemblyReference.cache
+C:\projects\iqFeed\IQFeed.ConsoleDemo\obj\Debug\IQFeed.ConsoleDemo.exe
+C:\projects\iqFeed\IQFeed.ConsoleDemo\obj\Debug\IQFeed.ConsoleDemo.pdb

@@ -1,0 +1,4 @@
+C:\projects\iqFeed\IQFeed\bin\Release\IQFeed.dll
+C:\projects\iqFeed\IQFeed\bin\Release\IQFeed.pdb
+C:\projects\iqFeed\IQFeed\obj\Release\IQFeed.dll
+C:\projects\iqFeed\IQFeed\obj\Release\IQFeed.pdb
