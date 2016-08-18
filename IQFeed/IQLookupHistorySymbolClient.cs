@@ -238,6 +238,7 @@ namespace IQFeed
         // Command Requests
         public void Connect()
         {
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
             ConnectToSocketAndBeginReceive(IQSocket.GetSocket());
         }
         public void Disconnect(int flushSeconds = 2)
