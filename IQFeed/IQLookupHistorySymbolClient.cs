@@ -52,7 +52,17 @@ namespace IQFeed
             base(requestId, LookupType.REQ_HST_INT, LookupSequence.MessageDetail)
         {
             string[] fields = line.Split(',');
-            
+
+            _dateTimeStamp = DateTime.MinValue;
+            _high = 0;
+            _low = 0;
+            _open = 0;
+            _close = 0;
+            _totalVolume = 0;
+            _periodVolume = 0;
+
+            if (fields.Count() < 8)
+                return;
             var dateInfo = fields[1].Split(' ')[0].Split('-');
             var timeInfo = fields[1].Split(' ')[1].Split(':');
             int year;

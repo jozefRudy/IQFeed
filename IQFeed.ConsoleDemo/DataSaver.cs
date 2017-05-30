@@ -18,7 +18,7 @@ namespace IQFeed.ConsoleDemo
             lookup.Connect();
             lookup.LookupEvent += Lookup_LookupEvent;
 
-            lookup.RequestIntervalData("@ES#", new Interval(PeriodType.Minute, 1), new DateTime(2005, 1, 1), DateTime.Today, true, timeStartInDay: new Time(hour: 8, minute: 30, second: 0), timeEndInDay: new Time(hour: 16, minute: 15, second: 0));
+            lookup.RequestIntervalData("@ES#", new Interval(PeriodType.Minute, 1), new DateTime(2001, 1, 1), DateTime.Today, true, timeStartInDay: new Time(hour: 00, minute: 00, second: 0), timeEndInDay: new Time(hour: 23, minute: 59, second: 0));
 
             //lookup.RequestIntervalData("@ES#", new Interval(PeriodType.Day, 1), new DateTime(2005, 1, 1), DateTime.Today, true);
 
