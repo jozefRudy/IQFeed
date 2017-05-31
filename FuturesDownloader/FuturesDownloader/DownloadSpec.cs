@@ -23,7 +23,7 @@ namespace FuturesDownloader
 
         public IEnumerable<string> GetMonthlyCodes()
         {
-            DateTime end_date = DateTime.Today;
+            DateTime end_date = DateTime.Today.AddYears(2);
             List<string> contracts = new List<string>();
 
             int i = 0;
