@@ -54,9 +54,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IQFeed\Sentinel.IQFeed.csproj">
+    <ProjectReference Include="..\IQFeed\IQFeed.csproj">
       <Project>{007019d8-cec4-4ccd-b9c6-a3be7ce705b0}</Project>
-      <Name>Sentinel.IQFeed</Name>
+      <Name>IQFeed</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
