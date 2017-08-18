@@ -24,6 +24,12 @@ namespace FuturesDownloader
             IEnumerable<string> contracts = spec.GetMonthlyCodes();
 
             DataDownloader downloader = new DataDownloader();
+            if (!downloader.isConnectionAvailable())
+            {
+                Console.WriteLine("IQFEED connection not available");
+                Environment.Exit(1);
+            }
+
             foreach (string symbol in contracts)
             {                
                 downloader.Download(symbol);

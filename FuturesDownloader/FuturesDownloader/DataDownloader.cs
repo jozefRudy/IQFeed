@@ -16,12 +16,30 @@ namespace FuturesDownloader
 
         public int Count { get { return historical_data.Count(); } }
 
+        public bool isConnectionAvailable()
+        {
+            var success = true;
+            try
+            {
+                lookup.Connect();
+                lookup.Disconnect();
+            }
+            catch
+            {
+                success = false;
+            }
+
+            return success;
+        }
+
         public void Download(string contract)
         {
             historical_data = new List<BarItem>();
             // Initialise lookup socket            
             lookup = new IQLookupHistorySymbolClient(4096);
+
             lookup.Connect();
+            
             lookup.LookupEvent += Lookup_LookupEvent;
 
             lookup.RequestIntervalData(contract, new Interval(PeriodType.Minute, 1), start_date, DateTime.Today, true, timeStartInDay: new Time(hour: 00, minute: 00, second: 0), timeEndInDay: new Time(hour: 23, minute: 59, second: 0));
