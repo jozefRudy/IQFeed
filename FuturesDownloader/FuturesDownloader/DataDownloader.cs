@@ -19,8 +19,9 @@ namespace FuturesDownloader
         public bool isConnectionAvailable()
         {
             var success = true;
+            lookup = new IQLookupHistorySymbolClient(4096);
             try
-            {
+            {                
                 lookup.Connect();
                 lookup.Disconnect();
             }
